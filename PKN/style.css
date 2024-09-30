@@ -1,1 +1,57 @@
 
+body{
+  back-ground-color:"bea8a3";
+  
+}
+.komp{
+	position relative;
+	bottom: 30%;
+	right: 50%;
+}
+
+.uz{
+
+	position relative;
+	bottom: 60%;
+	right:50%;
+}
+
+
+#papier
+{
+position relaive;
+	bottom: 90%;
+	right: 40%;
+}
+#kamien
+{
+	position relaive;
+	bottom: 90%;
+	right: 50%;
+}
+#nozyce
+{
+	position relaive;
+	bottom: 90%;
+	right: 60%;
+}
+
+}
+
+img:hover{
+
+	padding: 5px;
+	color: gray;
+	fiter: alpha(opacity=50);
+
+}
+img:active{
+
+	padding: 5px;
+	color: gray;
+
+}
+button img {
+  transition: transform 0.3s
+  ease;
+}
