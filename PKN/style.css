@@ -1,57 +1,35 @@
-
-body{
-  back-ground-color:"bea8a3";
-  
-}
-.komp{
-	position relative;
-	bottom: 30%;
-	right: 50%;
-}
-
-.uz{
-
-	position relative;
-	bottom: 60%;
-	right:50%;
+body {
+    background-color: #bea8a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-
-#papier
-{
-position relaive;
-	bottom: 90%;
-	right: 40%;
-}
-#kamien
-{
-	position relaive;
-	bottom: 90%;
-	right: 50%;
-}
-#nozyce
-{
-	position relaive;
-	bottom: 90%;
-	right: 60%;
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%; 
 }
 
+img {
+    width: 100px;
+    cursor: pointer;
 }
 
-img:hover{
-
-	padding: 5px;
-	color: gray;
-	fiter: alpha(opacity=50);
-
+.komp, .uz {
+    margin-top: 20px;
+    text-align: center;
 }
-img:active{
 
-	padding: 5px;
-	color: gray;
+img:hover {
+    padding: 5px;
+    opacity: 0.5;
+}
 
+img:active {
+    padding: 5px;
 }
-button img {
-  transition: transform 0.3s
-  ease;
-}
+
